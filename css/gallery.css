@@ -1,0 +1,78 @@
+@charset "utf-8";
+#parent {
+	display: flex;
+	flex-flow: row wrap;
+	height: 100%; 
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 225px;
+	justify-content: space-evenly;
+    background: gainsboro;
+}
+.child {
+	width: 150px;
+	height: 150px;;
+}
+.child1 {
+	background-color: white;
+}
+.child2 {
+	background-color: grey;
+}
+.child3 {
+	background-color: lightslategrey;
+}
+.child4 {
+	background-color: dimgray;
+}
+.child5 {
+	background-color: floralwhite;
+}
+.child6 {
+	background-color: black;
+}
+.child7 {
+	background-color: darkslategrey;
+}
+.child8 {
+	background-color: cornsilk;
+}
+.child9 {
+	background-color: lightslategrey;
+}
+.child10 {
+	background-color: lightgrey;
+}
+.child11 {
+	background-color: rosybrown;
+}
+.child12 {
+	background-color: lightsteelblue;
+}
+.child13 {
+	background-color: oldlace;
+}
+.child14 {
+	background-color: paleturquoise;
+}
+.child15 {
+	background-color: peachpuff;
+}
+.child16 {
+	background-color: silver;
+}
+.child17 {
+	background-color: slategrey;
+}
+.child18 {
+	background-color: whitesmoke;
+}
+.child19 {
+	background-color: steelblue;
+}
+.child20 {
+	background-color: wheat;
+}
+.child21 {
+	background-color: whitesmoke;
+} 
