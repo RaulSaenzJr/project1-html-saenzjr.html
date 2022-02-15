@@ -30,8 +30,8 @@ section.banner h1 {font-family: 'Satisfy', cursive; color: darkolivegreen; backg
 .child { width: 40%; height: 100%; background-color: rgb(168, 81, 5); padding: 20px 20px; margin: 5px auto; text-align: center; }
 .child1 { width: 40%; height: 100%; background: saddlebrown; background: url(../images/picnictable.jpg); float: left; margin-right: 10px 0 0 20px; text-align: center; }
 .child2 .child3 { width: 40%; height: 100%; float: left; margin-left: 20px; background: darkgray; text-align: center; }
-.child4 { width: 40%; height: 100%; background: lightgrey; float: left; margin-left: 10px 0 0 20px;background: url(../images/veggies.jpg); text-align: center; }
-.button { width: 150px; height: 35px; padding: 10px 10px 5px 5px; margin-left: 150px; margin-top: 100px; border: 1px solid black; border-radius: 5px; 
+.child4 { width: 40%; height: 100%; background: saddlebrown; background: url(../images/picnictable.jpg); float: left; margin-right: 10px 0 0 20px; text-align: center; }
+.button { width: 35%; height: 35px; padding: 10px 10px 5px 5px; margin-left: 150px; margin-top: 100px; border: 1px solid black; border-radius: 5px; 
     background: linear-gradient(darkolivegreen, olivedrab); text-align: center ; align-items: center; font-size: 20px; cursor: pointer; }
 .button a {color: ghostwhite; text-decoration: none; }
 .button:hover { background: linear-gradient(olivedrab, darkolivegreen); }
