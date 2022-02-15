@@ -14,12 +14,12 @@ body {
 
     /*STRUCTURE*/
 header { width: 100%; height: 60px; background-color: dimgrey; padding: 5px 0; margin-bottom: 5px; }
-.container { width: 940px; height: 98%; background-color: grey; margin: 5px auto; }
-    #logo { width: 200px; height: 60px; background-color: lightslategrey; float: left; }
-    nav { float: left; margin-left: 450px; }
-    nav li { display: inline-flex; margin-right: 20px; font-weight: bold; font-size: 18px; }
-    nav li a { color: silver; text-decoration: none; }
-    nav li a:hover { color: moccasin; text-decoration: underline dashed; font-weight: bold; }
+.container { width: 95%; height: 98%; background-color: grey; margin: 5px auto; }
+#logo { width: 200px; height: 60px; background-color: lightslategrey; float: left; }
+nav { float: right;  }
+nav li { display: inline-flex; margin-right: 20px; font-weight: bold; font-size: 18px; }
+nav li a { color: silver; text-decoration: none; }
+nav li a:hover { color: moccasin; text-decoration: underline dashed; font-weight: bold; }
 #carousel { width: 100%; height: 400px; background: url(bgplaceholder.jpg); background-size: 20% 20%; position: relative; padding: 5px 0; margin-bottom: 5px; }
 section#carousel > figure > img { display: none; margin-left: 600px; }
 section#carousel > figure.visible > img { display: block; overflow: hidden; }
@@ -36,7 +36,7 @@ section.banner h1 { color: dimgray; background-color: whitesmoke; font-size: 50p
 .child2 .child3 { width: 460px; height: 380px; float: left; margin-left: 20px; background: darkgray; }
 .child4 { width: 460px; height: 380px; background: lightgrey; float: left; margin-left: 10px 0 0 20px; }
 .button { width: 150px; height: 35px; padding: 10px 10px 5px 5px; margin-left: 150px; margin-top: 100px; border: 1px solid black; border-radius: 5px; 
-        background: linear-gradient(#c8c8c8, #969696); text-align: center ; align-items: center; font-size: 20px; cursor: pointer; }
+    background: linear-gradient(#c8c8c8, #969696); text-align: center ; align-items: center; font-size: 20px; cursor: pointer; }
 .button a {color: ghostwhite; text-decoration: none; }
 .button:hover { background: linear-gradient(#969696, #c8c8c8); }
 
