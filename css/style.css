@@ -85,6 +85,12 @@ section.banner h1 {
     margin-bottom: 5px;
     text-align: center;
 }
+#parent ul li{
+    list-style: none;
+    position: relative;
+    margin-left: 0;
+    padding-right: 2px 0 2px 25px;
+}
 #parent1 {
     display: flex;
     width: 100%;
@@ -102,6 +108,7 @@ section.banner h1 {
     margin: 5px auto;
     text-align: center;
     box-shadow: 2px 2px 5px rgb(0 0 0 /50%);
+    list-style: circle;
 }
 .child1 { 
     width: 40%;
