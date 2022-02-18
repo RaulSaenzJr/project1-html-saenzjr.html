@@ -8,84 +8,69 @@
 	padding-bottom: 225px;
 	justify-content: space-evenly;
     background: olivedrab;
+	
 }
 .child {
-	width: 125px;
-	height: 125px;;
+	width: 75px;
+	height: 75px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 .child2 {
-	background-color: grey;
 	background: url(../images/salad.jpg);
 }
 .child3 {
-	background-color: lightslategrey;
 	background: url(../images/bruschetta.jpg)
 }
 .child5 {
-	background-color: floralwhite;
 	background: url(../images/chorizao.jpg)
 }
 .child6 {
-	background-color: black;
 	background: url(../images/fruit.jpg)
 }
 .child7 {
-	background-color: darkslategrey;
 	background: url(../images/healthfood.jpg)
 }
 .child8 {
-	background-color: cornsilk;
 	background: url(../images/mooping.jpg)
 }
 .child9 {
-	background-color: lightslategrey;
 	background: url(../images/noodles.jpg)
 }
 .child10 {
-	background-color: lightgrey;
 	background: url(../images/pastry.jpg)
 }
 .child11 {
-	background-color: rosybrown;
 	background: url(../images/pastry2.jpg)
 }
 .child12 {
-	background-color: lightsteelblue;
 	background: url(../images/ramen.jpg)
 }
 .child13 {
-	background-color: oldlace;
 	background: url(../images/noodles.jpg)
 }
 .child14 {
-	background-color: paleturquoise;
 	background: url(../images/salad.jpg)
 }
 .child15 {
-	background-color: peachpuff;
 	background: url(../images/salmon.jpg)
 }
 .child16 {
-	background-color: silver;
 	background: url(../images/sandwich.jpg)
 }
 .child17 {
-	background-color: slategrey;
 	background: url(../images/soup.jpg)
 }
 .child18 {
-	background-color: whitesmoke;
 	background: url(../images/worms.jpg)
 }
 .child19 {
-	background-color: steelblue;
 	background: url(../images/healthfood.jpg)
 }
 .child20 {
-	background-color: wheat;
 	background: url(../images/chorizao.jpg)
 }
 .child21 {
-	background-color: whitesmoke;
 	background: url(../images/pastry2.jpg)
 } 
