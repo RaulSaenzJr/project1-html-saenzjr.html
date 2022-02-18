@@ -20,4 +20,4 @@ so that I can give them praise for food and website.
 
 ## Wireframes 
 
-Link: https://github.com/RaulSaenzJr/project-wireframe.
+Link: https://github.com/RaulSaenzJr/project-wireframe-main.git.
