@@ -55,9 +55,11 @@ nav li a:hover {
     background: url(../images/foodtruck2.png); 
     background-size: 100% 100%; 
     position: relative;  
+    overflow: hidden;
 }
 section#carousel > figure > img { 
-    display: none;  
+    display: none;
+    overflow: hidden;  
 }
 section#carousel > figure.visible > img { 
     display: block; 
@@ -109,6 +111,7 @@ section.banner h1 {
     text-align: center;
     box-shadow: 2px 2px 5px rgb(0 0 0 /50%);
     list-style: circle;
+    overflow: hidden;
 }
 .child1 { 
     width: 40%;
