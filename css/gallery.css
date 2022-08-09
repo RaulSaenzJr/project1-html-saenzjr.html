@@ -11,66 +11,104 @@
 	
 }
 .child {
-	width: 75px;
-	height: 75px;
+	width: 125px;
+	height: 125px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 .child2 {
 	background: url(../images/salad.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child3 {
-	background: url(../images/bruschetta.jpg)
+	background: url(../images/bruschetta.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child5 {
-	background: url(../images/chorizao.jpg)
+	background: url(../images/chorizao.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child6 {
-	background: url(../images/fruit.jpg)
+	background: url(../images/fruit.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child7 {
-	background: url(../images/healthfood.jpg)
+	background: url(../images/healthfood.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child8 {
-	background: url(../images/mooping.jpg)
+	background: url(../images/mooping.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child9 {
-	background: url(../images/noodles.jpg)
+	background: url(../images/noodles.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child10 {
-	background: url(../images/pastry.jpg)
+	background: url(../images/pastry.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child11 {
-	background: url(../images/pastry2.jpg)
+	background: url(../images/pastry2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child12 {
-	background: url(../images/ramen.jpg)
+	background: url(../images/ramen.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child13 {
-	background: url(../images/noodles.jpg)
+	background: url(../images/noodles.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child14 {
-	background: url(../images/salad.jpg)
+	background: url(../images/salad.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child15 {
-	background: url(../images/salmon.jpg)
+	background: url(../images/salmon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child16 {
-	background: url(../images/sandwich.jpg)
+	background: url(../images/sandwich.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child17 {
-	background: url(../images/soup.jpg)
+	background: url(../images/soup.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child18 {
-	background: url(../images/worms.jpg)
+	background: url(../images/worms.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child19 {
-	background: url(../images/healthfood.jpg)
+	background: url(../images/healthfood.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child20 {
-	background: url(../images/chorizao.jpg)
+	background: url(../images/chorizao.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .child21 {
-	background: url(../images/pastry2.jpg)
+	background: url(../images/pastry2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 } 

@@ -9,10 +9,11 @@
 body {
     margin: 0;
     font-family: Verdana, sans-serif;
-    color: white; background-color: olivedrab;
+    color: white; 
+    background-color: olivedrab;
 }
 
-    /*STRUCTURE*/
+/*STRUCTURE*/
 header { 
     width: 100%; 
     height: 60px; 
@@ -51,47 +52,43 @@ nav li a:hover {
 }
 #carousel { 
     width: 100%; 
-    height: 100%; 
     background: url(../images/foodtruck2.png); 
     background-size: 100% 100%; 
     position: relative;  
     overflow: hidden;
 }
-section#carousel > figure > img { 
+div#carousel > figure > img { 
     display: none;
     overflow: hidden;  
 }
-section#carousel > figure.visible > img { 
+div#carousel > figure.visible > img { 
     display: block; 
     overflow: hidden; 
     width: 40%; 
     margin: auto auto; 
 }
-section.banner {
+div.banner {
     background-color: olivedrab; 
-    margin: 5px; 
-    padding: 5px 0;
+    
 }
-section.banner h1 {
+div.banner h1 {
     color: rgb(122, 172, 35); 
     background-color: saddlebrown; 
     font-size: 50px; 
     text-align: center; 
 	border: solid black; 
 }
-#parent { display: flex;
+#parent { 
+    display: flex;
     width: 100%;
     height: 388px;
     background-color: olivedrab;
-    padding: 10% 0;
-    margin-bottom: 5px;
-    text-align: center;
+    padding-top: 5%;
 }
 #parent ul li{
     list-style: none;
     position: relative;
     margin-left: 0;
-    padding-right: 2px 0 2px 25px;
 }
 #parent1 {
     display: flex;
@@ -110,68 +107,108 @@ section.banner h1 {
     margin: 5px auto;
     text-align: center;
     box-shadow: 2px 2px 5px rgb(0 0 0 /50%);
-    list-style: circle;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
     overflow: hidden;
 }
 .child1 { 
     width: 40%;
     height: 100%;
     background: saddlebrown;
-    background: url(../images/picnictable.jpg);
+    background-image: url(../images/picnictable.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
     float: left;
     margin: 5px auto;
     text-align: center;
+    overflow: hidden;
 }
 .child2 .child3 {
     width: 40%;
     height: 100%;
-    margin: 5px auto; 
+    margin: 0; 
     background: darkgray; 
     text-align: center; 
+    overflow: hidden;
 }
 .child4 {
     width: 40%; 
     height: 100%; 
     background: saddlebrown; 
-    background: url(../images/picnictable.jpg); 
+    background-image: url(../images/grilling.jpg); 
+    background-repeat: no-repeat;
+	background-size: cover;
     margin: 10px auto; 
     text-align: center; 
+    overflow: hidden;
 }
-.button { 
-    display: block;
-    width: 35%; 
-    height: 35px; 
-    padding: 10px 10px 5px 10px; 
-    margin-top: 5em;
-    margin-left: auto; 
-    margin-right: auto; 
-    border: 1px solid black;
-    border-radius: 5px; 
-    background: linear-gradient(darkolivegreen, olivedrab); 
-    text-align: center ; 
-    align-items: center; 
-    font-size: 20px; 
-    cursor: pointer; 
-    box-shadow: 2px 2px 5px rgb(0 0 0 /50%);
+.list {
+    font-size: 16px;
+    position: relative;
+    left: -15px;
+    margin: 0 auto;
+    overflow: hidden;
 }
-.button a {
-    color: ghostwhite; 
-    text-decoration: none; 
-}
-.button:hover { 
-    background: linear-gradient(olivedrab, darkolivegreen); 
-}
-.footer { width: 100%; 
-    height: 5%; 
+
+.footer { 
+    width: 100%; 
     background-color: darkolivegreen; 
     text-align: center; 
+    margin-top: 10%; 
+    padding: 5px 0;
 }
-.container2 ul li{ 
-    display: block;
-    list-style: none;
-    width: 100%; 
-    height: 100%; 
-    background-color: darkolivegreen; 
-    color: black; 
-    font-size: 1rem; 
+.social ul {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   font-size: large;
+}
+.social li {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+}
+@media screen and (max-width: 480px) {
+    #logo {
+        display: none;
+    }
+    nav li { 
+        font-weight: bold; 
+        font-size: 15px; 
+        width: fit-content;
+    }
+    .child { 
+        width: 25%;
+        height: 75%;
+        background-color: rgb(168, 81, 5);
+        padding: 20px 40px;
+        margin: 5px 5px;
+        text-align: center;
+        font-size: 11px;
+        font-family: 'Times New Roman', Times, serif;
+        overflow: hidden;
+        box-shadow: 1px 1px 2px rgb(0 0 0 /30%);
+    }
+    .child1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;  
+    }
+    .child4 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .footer {
+        width: 100%;
+        justify-content:flex-start;
+        margin: 0 auto;
+    }
+    .social ul {
+        justify-content: space-evenly;
+        font-size: 9px;
+     }
 }

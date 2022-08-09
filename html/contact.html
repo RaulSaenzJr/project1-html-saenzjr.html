@@ -5,17 +5,17 @@
         <title>Contact Page</title>
         
         <link rel="stylesheet" href="../css/contact.css">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/saenzjr.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
     </head>
     <body id="contactbody">
         <header>
             <div class="container">
-                <div id="logo"><a href="index.html"><img src="../images/logo.png" alt="Picture"/></a></div>
+                <div id="logo"><a href="saenzjr.html"><img src="../images/logo.png" alt="Picture"/></a></div>
             <nav>
                 <ul>
-                   <li><a href="index.html">home</a></li>
+                   <li><a href="saenzjr.html">home</a></li>
                    <li><a href="menu.html">menu</a></li>
                    <li><a href="gallery.html">gallery</a></li>
                    <li><a href="contact.html">contact</a></li>
@@ -23,12 +23,13 @@
             </nav>
             </div>
         </header>
-        <section class="banner">
+        <div class="banner">
             <h1>Contact Info</h1>
-        </section>
+        </div>
         <section id="sectionform">
             <div class="container3">
                 <form>
+                    <h2>Request a Date</h2>
                     <div class="step step-1 index active">
                         <div class="form-group">
                             <label for="firstName">First Name</label>
@@ -39,11 +40,12 @@
                                 <input type="text" id="lastName" name="lastName">
                             </div>
                             <div class="form-group">
-                                <label for="nickName">Nickname</label>
-                                <input type="text" id="nickName" name="nickName">
+                                <label for="eventType">Event Type (ex. wedding, corporate party, etc)</label>
+                                <input type="text" id="eventType" name="eventType">
                             </div>
                             <button type="button" class="next-btn">Next</button>
-                    </div><div class="step step-2">
+                    </div>
+                     <div class="step step-2">
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" id="email" name="email">
@@ -52,17 +54,41 @@
                                 <label for="phone">Phone Number</label>
                                 <input type="number" id="phone" name="phone-number">
                             </div>
+                        <div class="form-group">
+                            <label for="date">Event Date</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                            <button type="button" class="previous-btn">Prev</button>
+                            <button type="button" class="next-btn">Next</button>
+                        </div>
+                        <div class="step step-3">
+                            <div class="form-group">
+                                <label for="location">Location</label>
+                                <input type="text" id="location" name="location">
+                            </div>
+                            <div class="form-group">
+                                <label for="guestCount">How many guests?</label>
+                                <input type="text" id="guestCount" name="guestCount">
+                            </div>
+                            <div class="form-group">
+                                <label for="serviceType">What type of service? (ex. food truck, buffet, plated)</label>
+                                <input type="text" id="serviceType" name="serviceType">
+                            </div>
                             <button type="button" class="previous-btn">Prev</button>
                             <button type="submit" class="submit-btn">Submit</button>
                         </div>
                     </form>
                 </div></section>
             <script src="../js/contact.js"></script>
-            <footer class="footer"><div class="container2"><p>&copy;Food Truck 2022</p>
-                <ul>
-                  <li>Email</li>
-                  <li>Facebook</li>
-                  <li>Instagram</li>
-                </ul></div></footer>
+            <footer class="footer">
+                <div class="social">
+                    <ul>
+                    <li>thedragonborn@therift.com</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>&copy;JR's Place 2022</li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html> 

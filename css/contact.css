@@ -17,13 +17,36 @@ header {
     padding: 5px 0; 
     margin: 5px auto; 
     }
-.container { width: 95%; height: 98%; background-color: darkolivegreen; margin: 5px auto; }
-#logo { width: 200px; height: 60px; background-color: olive; float: left; }
-nav { float: right;  }
-nav li { display: inline-flex; margin-right: 20px; font-weight: bold; font-size: 25px; }
-nav li a { color: silver; text-decoration: none; }
-nav li a:hover { color: whitesmoke; text-decoration: underline dashed; font-weight: bold; }
-
+.container { 
+    width: 95%; 
+    height: 98%; 
+    background-color: darkolivegreen; 
+    margin: 5px auto; 
+}
+#logo { 
+    width: 200px; 
+    height: 60px; 
+    background-color: olive; 
+    float: left;
+ }
+nav { 
+    float: right;  
+}
+nav li { 
+    display: inline-flex; 
+    margin-right: 20px; 
+    font-weight: bold; 
+    font-size: 25px; 
+}
+nav li a { 
+    color: silver; 
+    text-decoration: none; 
+}
+nav li a:hover { 
+    color: whitesmoke; 
+    text-decoration: underline dashed; 
+    font-weight: bold; 
+}
 #contactbody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -44,6 +67,9 @@ nav li a:hover { color: whitesmoke; text-decoration: underline dashed; font-weig
     text-align: start; 
     margin-bottom: 5%;
 }
+.container3 h2{
+    text-align: center;
+}
 .step {
     display: none;
 }
@@ -62,9 +88,7 @@ nav li a:hover { color: whitesmoke; text-decoration: underline dashed; font-weig
     margin-top: 5px;
     border-radius: 4px;
 }
-button.next-btn,
-button.previous-btn,
-button.submit-btn {
+button.next-btn, button.previous-btn, button.submit-btn {
     float: right;
     margin-top: 20px;
     padding: 10px 30px;
@@ -80,17 +104,24 @@ button.previous-btn {
 button.submit-btn {
     background-color: dimgray;
 }
-.footer { width: 100%; 
+.footer { 
+    width: 100%; 
     height: 5%; 
     background-color: darkolivegreen; 
     text-align: center; 
+    margin: 5px; 
+    padding: 5px 0;
 }
-.container2 ul li{ 
-    display: block;
-    list-style: none;
-    width: 100%; 
-    height: 100%; 
-    background-color: darkolivegreen; 
-    color: black; 
-    font-size: 1rem; 
+.social ul {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   font-size: large;
+}
+.social li {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
 }
